@@ -28,12 +28,22 @@ body {
 	font-size: 1.2rem;
 	margin-top: 1.75rem;
 	margin-right: min(7vw, 5rem);
+	text-decoration: none;
+	color: #f2f2f2;
+	padding: 5px 10px;
+	height: fit-content;
 }
 
 .logo {
 	margin-right: auto;
 	margin-left: 5rem;
 	overflow: visible;
+}
+
+.nav-link:not(:first-child):hover {
+	text-decoration: underline;
+
+	cursor: pointer;
 }
 
 video {
