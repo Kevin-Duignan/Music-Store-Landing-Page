@@ -135,3 +135,15 @@ h2 {
 	height: 6rem;
 	background-color: #e35f21;
 }
+
+.grid-items {
+	display: grid;
+	grid-template-columns: 2fr 1fr;
+}
+
+.item {
+	background-color: #e35f21;
+	width: 300px;
+	height: 400px;
+	border: solid white;
+}
