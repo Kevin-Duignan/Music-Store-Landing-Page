@@ -23,18 +23,20 @@
         </nav>
     </header>
     <main id="main">
-        <div class="video-wrapper" id="home">
-            <video playsinline autoplay muted loop poster="vinyl-poster.png">
-                <source src="static/vinyl-loop.mp4" type="video/mp4">
-                Your browser does not support the video tag.
-            </video>
-            <div class="video-header">
-                <h1>Welcome to Hornadium</h1>
-                <p>The Musician's Haven</p>
-                <a href="#shop">Shop Now</a>
+        <section id="home">
+            <div class=" video-wrapper">
+                <video playsinline autoplay muted loop poster="vinyl-poster.png" id="video">
+                    <source src="static/vinyl-loop.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+                <div class="video-header">
+                    <h1>Welcome to Hornadium</h1>
+                    <p>The Audiophile's Haven</p>
+                    <a href="#shop">Shop Now</a>
+                </div>
             </div>
-        </div>
-        <div class="featured" id="shop">
+        </section>
+        <section class="featured" id="shop">
             <h2>Featured Items</h2>
             <div class="shop-items">
                 <div class="shop-item">
@@ -53,7 +55,26 @@
                     <p id="item-price">$19.90</p>
                 </div>
             </div>
-        </div>
+        </section>
+        <section id="about">
+            <h2>About</h2>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eveniet pariatur necessitatibus nihil eius
+                velit dolores? Asperiores eveniet voluptates, obcaecati delectus saepe ullam inventore ut perspiciatis
+                excepturi sint est? Quo quibusdam laudantium quis esse eveniet aspernatur? Quibusdam, minima sapiente
+                voluptatibus, quasi ad accusamus animi harum, ex molestias nemo quaerat ipsa dolorum? Enim distinctio
+                vero vitae dicta laborum delectus sit quia nesciunt! Eos suscipit repudiandae, iusto neque vitae harum
+                perspiciatis. Deleniti sint distinctio dicta rem corrupti autem aspernatur eius! Neque, magni
+                voluptatibus, assumenda quis nemo possimus sequi quas voluptatum, harum perspiciatis debitis totam
+                adipisci ipsam quo blanditiis non mollitia eius perferendis maiores modi atque dolorem quia laudantium.
+                Nam veniam eos temporibus mollitia nemo eius delectus repellendus. Ex dicta perspiciatis accusamus iure
+                cumque fugiat quis quidem architecto sit, temporibus nesciunt nobis quibusdam accusantium magnam
+                aliquid.</p>
+        </section>
+        <section id="contact">
+            <form id="form">
+                <input id="email" placeholder="Enter your email here" type="email">
+            </form>
+        </section>
     </main>
 
 </body>
