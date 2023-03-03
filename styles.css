@@ -107,7 +107,7 @@ h2 {
 }
 
 .shop-item {
-	width: 450px;
+	width: min(30vw, 600px);
 	height: auto;
 	margin-bottom: 1em;
 }
@@ -127,7 +127,7 @@ h2 {
 #about p {
 	margin: 9em;
 	margin-top: 0;
-	text-align: center;
+	/* text-align: center; */
 }
 
 #contact {
@@ -136,14 +136,32 @@ h2 {
 	background-color: #e35f21;
 }
 
-.grid-items {
+.grid-container {
 	display: grid;
-	grid-template-columns: 2fr 1fr;
+	grid-template-areas:
+		"icon1 text1 text1"
+		"text2 text2 icon2"
+		"icon3 text3 text3";
+	grid-template-columns: repeat(3, auto);
+	grid-template-rows: repeat(3, auto);
+	justify-items: space-around;
 }
 
-.item {
-	background-color: #e35f21;
-	width: 300px;
-	height: 400px;
-	border: solid white;
+.grid-item-1 {
+	grid-area: icon1;
+}
+.grid-item-2 {
+	grid-area: text1;
+}
+.grid-item-3 {
+	grid-area: icon2;
+}
+.grid-item-4 {
+	grid-area: text2;
+}
+.grid-item-5 {
+	grid-area: icon3;
+}
+.grid-item-6 {
+	grid-area: text3;
 }
