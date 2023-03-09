@@ -133,7 +133,7 @@ h2 {
 		"icon3 text3 ";
 	grid-template-columns: 100px min(70vw, 70rem);
 	grid-template-rows: repeat(3, auto);
-	justify-items: center;
+	justify-items: left;
 	align-items: center;
 	justify-content: center;
 	margin: 0 auto;
@@ -160,7 +160,7 @@ h2 {
 }
 
 .grid-item {
-	margin: 1em 3em;
+	margin: 1rem 3rem;
 }
 
 #about h3,
@@ -207,7 +207,7 @@ input[type="email"] {
 	background-color: #e35f21;
 	border: 2px solid black;
 	padding: 1rem;
-	width: 300px;
+	width: 250px;
 }
 
 input::placeholder {
@@ -228,16 +228,4 @@ button {
 button:hover {
 	cursor: pointer;
 	color: #f2f2f2;
-}
-
-.item-1 {
-	flex-basis: 5rem;
-}
-
-.item-2 {
-	flex-basis: 5rem;
-}
-
-.item-3 {
-	flex-basis: 40rem;
 }
