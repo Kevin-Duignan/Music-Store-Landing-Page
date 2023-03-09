@@ -1,1 +1,1 @@
-# Music Store Landing Page
+# Hornadium - Vinyl Records Store Landing Page
