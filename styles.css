@@ -5,11 +5,19 @@
 }
 
 body {
-	background: #030708;
 	font-family: "Montserrat", sans-serif;
 	color: #f2f2f2;
-	height: 100vh;
-	margin: 0;
+	margin: 0px;
+	padding: 0px;
+}
+
+#header {
+	background-color: #030708;
+	position: sticky;
+	top: 0;
+	left: 0;
+	z-index: 999;
+	width: 100%;
 }
 
 #nav-bar {
@@ -22,6 +30,12 @@ body {
 #header-img {
 	object-fit: contain;
 	height: 5rem;
+}
+
+#main {
+	background: #030708;
+	padding: 0px;
+	margin: 0px;
 }
 
 .nav-link:not(:first-child) {
